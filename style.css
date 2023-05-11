@@ -40,6 +40,8 @@ a {
     font-size: 18px;
 }
 
+/* Top section (This website is awesome) */
+
 .content-top {
     display: flex;
     justify-content: space-between;
@@ -83,6 +85,8 @@ a {
     height: 229px;
 }
 
+/* Mid section (Some random information) */
+
 .container-mid {
     background: white;
     padding: 136px 170px;
@@ -124,6 +128,8 @@ a {
     outline: 4px solid #44a3ff;
 }
 
+/* Quote section */
+
 .quote-container {
     display: flex;
     flex-direction: column;
@@ -147,6 +153,8 @@ a {
     margin-top: -25px;
 }
 
+/* Call to action*/
+
 .ca-container {
     background-color: white;
     display: flex;
@@ -159,7 +167,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 155px;
+    padding: 50px 140px;
     border-radius: 10px;
     background-color: #2882F6;
     color: white;
@@ -182,6 +190,9 @@ a {
     font-weight: 700;
     margin-left: 100px;
 }
+
+/* Footer*/
+
 .footer {
     display: flex;
     justify-content: center;
