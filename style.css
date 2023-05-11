@@ -62,8 +62,8 @@ a {
 .p-top {
     color: #E5E7EB;
     font-size: 18px;
-
-    margin: 10px 0;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .signup {
@@ -147,8 +147,41 @@ a {
     margin-top: -25px;
 }
 
+.ca-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 100px 330px;
+}
 
+.ca-content {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 155px;
+    border-radius: 10px;
+    background-color: #2882F6;
+    color: white;
+}
 
+.text-container p {
+    margin: 0;
+    color: #e5e7eb;;
+}
+
+.text-container h1 {
+    margin: 0;
+    font-size: 23px;    
+}
+
+.signup-button {
+    padding: 5px 35px;
+    border-radius: 5px;
+    outline: 2px solid white;
+    font-weight: 700;
+    margin-left: 100px;
+}
 .footer {
     display: flex;
     justify-content: center;
