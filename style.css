@@ -53,7 +53,6 @@ a {
 
 .h1 {
     width: 342px;
-
     font-size: 48px;
     font-weight: 900;
     color: white;
@@ -72,7 +71,6 @@ a {
     width: 80px;
     color: white;
     text-align: center;
-
     font-weight: 900;
     padding: 10px 25px;
     background-color: #3882F6;
@@ -92,7 +90,6 @@ a {
 
 .cm-header {
     text-align: center;
-
     font-size: 36px;
     font-weight: 900;
     margin-top: 50px;
@@ -130,21 +127,24 @@ a {
 .quote-container {
     display: flex;
     flex-direction: column;
-    padding: 0 330px;
+    padding: 100px 330px;
     background-color: #E5E7EB;
 }
 
 .quote {
     flex-grow: 0;
     font-size: 36px;
-
     color: #1F2937;
     font-style: italic;
-    font-weight: light;
+    font-weight: 300;
 }
 
 .quoted-person {
     align-self: flex-end;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-top: -25px;
 }
 
 
@@ -154,7 +154,5 @@ a {
     justify-content: center;
     align-items: center;
     padding: 40px 0;
-
     color: #c8c8c8;
-   /*font-weight: 900;*/
 }
