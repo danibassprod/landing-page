@@ -124,4 +124,14 @@ a {
     flex: 0 0 auto;
     border-radius: 10px;
     outline: 4px solid #44a3ff;
-}   
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    font-family: sans-serif;
+    color: #c8c8c8;
+   /*font-weight: 900;*/
+}
