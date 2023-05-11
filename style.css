@@ -42,6 +42,7 @@ a {
 .content-top {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 130px;
 }
 
 .content-text-top {
@@ -82,3 +83,46 @@ a {
     width: 511px;
     height: 229px;
 }
+
+.container-mid {
+    background: white;
+    padding: 0 170px;
+    padding-bottom: 80px;
+}
+
+.cm-header {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #1f2937; 
+}
+
+.square-container {
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+}
+
+.container-square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 180px;
+}
+
+.square-p {
+    font-family: sans-serif;
+    color: #818385;
+}
+
+.square {
+    width: 165px;
+    height: 165px;
+    flex: 0 0 auto;
+    border-radius: 10px;
+    outline: 4px solid #44a3ff;
+}   
